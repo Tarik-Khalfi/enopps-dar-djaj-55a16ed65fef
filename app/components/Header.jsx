@@ -4,7 +4,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 export default function Header() {
-  const [link, setLink] = useState("Home");
+  const [active, setactive] = useState('')
+
   return (
     <div className="">
       <div className="bg-black h-[929.73px] relative">
@@ -20,26 +21,16 @@ export default function Header() {
               alt="s"
             />
           </div>
-          <div className="space-x-10">
-            <Link
-              onClick={() => setLink("Home")}
-              href="#"
-              className="font-poppins text-[16px] font-[500] leading-normal  text-[#FFF] "
-            >
-              Home
-            </Link>
-            <Link
-              href="#"
-              className="font-poppins text-[16px] font-[500] leading-normal  text-[#FFF] "
-            >
-              Our Menu
-            </Link>
-            <Link
-              href="#"
-              className="font-poppins text-[16px] font-[500] leading-normal  text-[#FFF] "
-            >
-              Contact
-            </Link>
+          <div className="space-x-10 z-10">
+            <Link onClick={() => setactive('home')}
+              className={` ${active === 'home' ? ' border-b-2 pb-1 transition-all border-[#D7B686]' : 'border-none'}`}
+              href='/'>Home</Link>
+            <Link onClick={() => setactive('menu')}
+              className={` ${active === 'menu' ? ' border-b-2 pb-1 transition-all border-[#D7B686]' : 'border-none'}`}
+              href='/menu'>Our Menu</Link>
+            <Link onClick={() => setactive('contact')}
+              className={` ${active === 'contact' ? ' border-b-2 pb-1 transition-all border-[#D7B686]' : 'border-none'}`}
+              href='/contact'>Contact</Link>
           </div>
         </div>
         <div className="flex flex-row container px-10 mx-auto text-white gap-150 space-x-[300px] space-y-40 mt-50">

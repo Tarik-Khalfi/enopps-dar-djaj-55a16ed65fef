@@ -6,7 +6,7 @@ import Image from "next/image"
 
 const page = () => {
     return (
-        <main>
+        <main className="text-black">
             <section className='bg-[url("/Rectangle2.png")] space-y-[100px] bg-cover bg-no-repeat'>
                 <Nav />
                 <HeaderProp fontt='font-bold text-7xl' font='font-bernier' text='Our Menu' />
