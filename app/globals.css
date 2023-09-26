@@ -60,3 +60,62 @@
     clip-path: polygon(18% 0, 100% 0, 100% 7%, 100% 73%, 100% 100%, 0 100%, 0% 80%, 0 28%);
 
 }
+
+
+
+.clipImage2 {
+    -webkit-clip-path: polygon(73% 0, 100% 28%, 100% 99%, 0 99%, 0 0);
+    clip-path: polygon(73% 0, 100% 28%, 100% 99%, 0 99%, 0 0);
+}
+
+.clipImage1 {
+    -webkit-clip-path: polygon(25% 0, 100% 0, 100% 99%, 0 99%, 0 21%);
+    clip-path: polygon(25% 0, 100% 0, 100% 99%, 0 99%, 0 21%);
+}
+
+.frstCont {
+    -webkit-clip-path: polygon(9% 0, 100% 0, 100% 68%, 91% 100%, 0 100%, 0 27%);
+    clip-path: polygon(9% 0, 100% 0, 100% 68%, 91% 100%, 0 100%, 0 27%);
+}
+
+.scdCont {
+    -webkit-clip-path: polygon(0 0, 92% 1%, 100% 30%, 100% 100%, 8% 100%, 0 71%);
+
+    clip-path: polygon(0 0, 92% 1%, 100% 30%, 100% 100%, 8% 100%, 0 71%);
+}
+
+.spcSect {
+    -webkit-clip-path: polygon(15% 0, 81% 0, 100% 19%, 100% 85%, 100% 100%, 9% 100%, 0 100%, 0 0);
+    clip-path: polygon(15% 0, 81% 0, 100% 19%, 100% 85%, 100% 100%, 9% 100%, 0 100%, 0 0);
+}
+
+.foodClip {
+    -webkit-clip-path: polygon(15% 0, 73% 0, 100% 27%, 100% 85%, 100% 100%, 9% 100%, 0 100%, 0 0);
+    clip-path: polygon(15% 0, 73% 0, 100% 27%, 100% 85%, 100% 100%, 9% 100%, 0 100%, 0 0);
+}
+
+
+.shapeMenu {
+    -webkit-clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 0 100%, 0 71%);
+    clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 0 100%, 0 71%);
+}
+
+.shapeMenu2 {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 79%, 86% 100%, 0 100%, 0 71%);
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 86% 100%, 0 100%, 0 71%);
+}
+
+.shapeMenu3 {
+    -webkit-clip-path: polygon(21% 0, 100% 0, 100% 100%, 86% 100%, 0 100%, 0 22%);
+    clip-path: polygon(21% 0, 100% 0, 100% 100%, 86% 100%, 0 100%, 0 22%);
+}
+
+.shapeMenu4 {
+    -webkit-clip-path: polygon(76% 0, 100% 18%, 100% 100%, 86% 100%, 0 100%, 0 0);
+    clip-path: polygon(76% 0, 100% 18%, 100% 100%, 86% 100%, 0 100%, 0 0);
+}
+
+.shapeMenu5 {
+    -webkit-clip-path: polygon(13% 0, 100% 0, 100% 100%, 86% 100%, 0 100%, 0 19%);
+    clip-path: polygon(13% 0, 100% 0, 100% 100%, 86% 100%, 0 100%, 0 19%);
+}
