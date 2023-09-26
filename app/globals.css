@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbg {
+    background: linear-gradient(180deg, #000 24.43%, rgba(11, 19, 21, 0.00) 100%);
+
+}
+
+.navbb {
+    background: lightgray 2.897px -579.227px / 100% 247.674% no-repeat;
+}
+
+.navbuttom {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.70) 64.11%, rgba(11, 19, 21, 0.00) 102.02%);
+}
+
+@font-face {
+    font-family: "Bernier";
+    src: url('../public/assets/font/BERNIER™\ Regular.ttf') format('truetype');
+}
+
+.clipo {
+    -webkit-clip-path: polygon(24% 0, 100% 1%, 100% 50%, 100% 100%, 0 100%, 0 17%);
+    clip-path: polygon(24% 0, 100% 1%, 100% 50%, 100% 100%, 0 100%, 0 17%);
+}
+
+.clipo2 {
+    -webkit-clip-path: polygon(12% 0, 100% 1%, 100% 50%, 100% 100%, 0 100%, 0 11%);
+    clip-path: polygon(12% 0, 100% 1%, 100% 50%, 100% 100%, 0 100%, 0 11%);
+}
+
+.clipo3 {
+    -webkit-clip-path: polygon(0 0, 77% 0, 100% 33%, 100% 100%, 0 100%, 0 50%);
+    clip-path: polygon(0 0, 77% 0, 100% 33%, 100% 100%, 0 100%, 0 50%);
+
+}
+
+.clipo4 {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 64%, 74% 100%, 0 100%, 0% 80%, 0% 20%);
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 64%, 74% 100%, 0 100%, 0% 80%, 0% 20%);
+
+}
+
+.clipo5 {
+    -webkit-clip-path: polygon(0 0, 89% 0, 100% 9%, 100% 100%, 75% 100%, 0 100%, 0% 80%, 0% 20%);
+    clip-path: polygon(0 0, 89% 0, 100% 9%, 100% 100%, 75% 100%, 0 100%, 0% 80%, 0% 20%);
+
+}
+
+.clipo6 {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 7%, 100% 73%, 75% 100%, 0 100%, 0% 80%, 0% 20%);
+    clip-path: polygon(0 0, 100% 0, 100% 7%, 100% 73%, 75% 100%, 0 100%, 0% 80%, 0% 20%);
+
+}
+
+.clipo7 {
+    -webkit-clip-path: polygon(18% 0, 100% 0, 100% 7%, 100% 73%, 100% 100%, 0 100%, 0% 80%, 0 28%);
+    clip-path: polygon(18% 0, 100% 0, 100% 7%, 100% 73%, 100% 100%, 0 100%, 0% 80%, 0 28%);
+
+}
