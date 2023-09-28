@@ -10,7 +10,7 @@ const HeaderProp = ({ text, font, fontt }) => {
                 className=' absolute left-0 bottom-0 ' alt='img' />
 
             <div className='container pb-[200px]'>
-                <h3 className={`font-extrabold ${fontt || 'text-5xl '} text-center ${font} text-white`}>{text}</h3>
+                <h3 className={`font-semibold ${fontt || 'text-5xl '} text-center ${font} text-white`}>{text}</h3>
             </div>
 
         </section>

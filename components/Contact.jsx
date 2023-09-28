@@ -8,10 +8,10 @@ const Contact = () => {
             <Image alt='ll' src='/Group 5.png' width={400} height={400}
                 className='w-[300px] h-[100px]  z-10 absolute  right-0 ' />
 
-            <div className=' col-span-6 z-20 space-y-14'>
-                <div className=' space-y-4'>
-                    <h1 className='text-[#F09804] font-bold text-6xl  font-bernier uppercase'>Contact Us</h1>
-                    <h2 className='text-4xl '>Get in Touch With Us</h2>
+            <div className=' col-span-6 z-20 space-y-8'>
+                <div className=' '>
+                    <h1 className='text-[#F09804]  text-[44px]  font-bernier uppercase'>Contact Us</h1>
+                    <h2 className='text-4xl font-semibold'>Get in Touch With Us</h2>
                 </div>
 
                 <p className='text-[#D4D4D4] leading-7 w-[452px]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt </p>
@@ -22,7 +22,7 @@ const Contact = () => {
                     </svg>
                     <h4 className='text-2xl'>+62 868245124 <br /> <span className='text-[#C4C4C4] text-sm'>Telephone</span></h4>
                 </div>
-                <div className='flex gap-5'>
+                <div className='flex gap-5 py-4u'>
                     <Image src='/icon2png.png' width={50} height={50} className='w-[50px] h-[50px]' alt='icon' />
                     <h4 className='text-2xl'>lezzatos@restaurant.com <br /> <span className='text-[#C4C4C4] text-sm'>Email</span></h4>
                 </div>

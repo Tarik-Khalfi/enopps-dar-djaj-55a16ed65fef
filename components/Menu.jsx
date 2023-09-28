@@ -2,13 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 const Menu = () => {
     return (
-        <section className='bg-[#0D1518]   py-20'>
+        <section className='bg-[#0D1518]  py-20'>
             <div className='container relative  flex justify-between items-center'>
-                <div className='bg-white clipo2 py-10 px-14 z-50 space-y-9 '>
+                <div className='bg-white clipo2 py-10 px-14 z-50 space-y-10 '>
                     <h3 className='text-[#F09804E5]  text-4xl font-bernier font-semibold'>Opening Hours</h3>
-                    <div className='text-[#808080] space-y-4'>
+                    <div className='text-[#808080] font-poppins   space-y-4'>
                         <div className='flex justify-between'>
-                            <p className='font-medium   text-xl text-black'>Monday</p>
+                            <p className='font-medium    text-xl text-black'>Monday</p>
                             <span>:9:00am - 23:00pm</span>
                         </div>
                         <div className='flex w-[20dvw] justify-between'>

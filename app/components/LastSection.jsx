@@ -5,7 +5,7 @@ export default function LastSection() {
   return (
     <div className=" h-[908px] bg-[#0D1518] ">
       <div className="flex flex-row container mx-auto px-5 ">
-        <div className="h-[690px] w-[442px] bg-white z-50 p-10 space-y-3     relative top-24 mt-20">
+        <div className="h-[690px] w-[442px] bg-white z-50 p-4  space-y-3  relative top-24 mt-20">
           <h1 className="font-bernier font-400 text-[44px] leading-[51px] text-[#F09804]">
             SANDWICH
           </h1>
@@ -31,7 +31,6 @@ export default function LastSection() {
             <p className="font-bernier font-400 text-[22px] leading-[25px]">
               SANDWICH TANDORI
             </p>
-            <Image src="/Vector 24.svg" width={170} height={5} alt="" />
             <p className="font-bernier text-[#F09804] text-[24px] font-400 leading-normal">
               30DH
             </p>

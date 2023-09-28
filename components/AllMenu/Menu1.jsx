@@ -3,66 +3,61 @@ import Image from 'next/image'
 
 const Menu1 = () => {
     return (
-        <section className='bg-[#0D1518]   py-20'>
+        <section className='bg-[#0D1518]   py-[140px]'>
             <div className='container relative  flex justify-between items-center'>
-                <div className='bg-white  py-10 px-14 z-50 space-y-9 '>
+                <div className='bg-white  py-10 px-10 z-50 space-y-4 '>
                     <h3 className='text-[#F09804E5]  text-6xl font-bernier font-semibold'>Salade</h3>
                     <div className='text-[#808080] space-y-4'>
-                        <div className='w-[400px] space-y-3'>
+                        <div className='w-[400px] '>
                             <div className='flex justify-between items-center'>
                                 <p className='font-medium text-2xl font-bernier  text-[#0F1622]'>Salade dar d’jaj</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="185" height="2" viewBox="0 0 185 2" fill="none">
-                                    <path opacity="0.8" d="M0.535645 1.47876H184.702" stroke="#F09804" stroke-dasharray="4 4" />
-                                </svg>
+                                <p className=' text-primary'>-----------------------------</p>
+
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>35 DH</h3>
                             </div>
 
-                            <p className='text-[#808080] text-sm font-poppins '>Poulet rôti, riz, mais</p>
+                            <p className='text-[#808080] font-semibold   font-poppins '>Poulet rôti, riz, mais</p>
                         </div>
                     </div>
 
                     <div className='text-[#808080] space-y-4'>
-                        <div className='w-[400px] space-y-3'>
+                        <div className='w-[400px] '>
                             <div className='flex justify-between items-center'>
                                 <p className='font-medium text-2xl font-bernier  text-[#0F1622]'>Salade niçoise</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="185" height="2" viewBox="0 0 185 2" fill="none">
-                                    <path opacity="0.8" d="M0.535645 1.47876H184.702" stroke="#F09804" stroke-dasharray="4 4" />
-                                </svg>
+                                <p className=' text-primary'>--------------------------------</p>
+
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>35 DH</h3>
                             </div>
 
-                            <p className='text-[#808080] text-sm font-medium font-poppins '>Pomme de terre, bettrave, carotte, riz, thon, oeuf , concombre, olive</p>
+                            <p className='text-[#808080]  font-semibold  leading-7  font-poppins '>Pomme de terre, bettrave, carotte, riz, thon, oeuf , concombre, olive</p>
                         </div>
                     </div>
 
                     <div className='text-[#808080] space-y-4'>
-                        <div className='w-[400px] space-y-3'>
+                        <div className='w-[400px] '>
                             <div className='flex justify-between items-center'>
                                 <p className='font-medium text-2xl font-bernier  text-[#0F1622]'>Salade de thon</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="185" height="2" viewBox="0 0 185 2" fill="none">
-                                    <path opacity="0.8" d="M0.535645 1.47876H184.702" stroke="#F09804" stroke-dasharray="4 4" />
-                                </svg>
+                                <p className=' text-primary'>--------------------------------</p>
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>22 DH</h3>
                             </div>
 
-                            <p className='text-[#808080] text-sm font-medium font-poppins '>Tomate, Oignon, thon</p>
+                            <p className='text-[#808080] font-semibold  font-poppins '>Tomate, Oignon, thon</p>
                         </div>
                     </div>
 
                     <div className='text-[#808080] space-y-4'>
-                        <div className='w-[400px] space-y-3'>
+                        <div className='w-[400px] '>
                             <div className='flex justify-between items-center'>
                                 <p className='font-medium text-2xl font-bernier  text-[#0F1622]'>Salade Marocaine</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="185" height="2" viewBox="0 0 185 2" fill="none">
-                                    <path opacity="0.8" d="M0.535645 1.47876H184.702" stroke="#F09804" stroke-dasharray="4 4" />
-                                </svg>
+                                <p className=' text-primary'>----------------------------</p>
+
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>19 DH</h3>
                             </div>
                         </div>
                     </div>
 
 
-                    <h3 className='text-[#F09804E5]  text-2xl font-bernier font-semibold'>composez votre salade 45 dh</h3>
+                    <h3 className='text-[#F09804E5] pt-[20px]  text-2xl font-bernier '>composez votre salade 45 dh</h3>
 
 
                 </div>

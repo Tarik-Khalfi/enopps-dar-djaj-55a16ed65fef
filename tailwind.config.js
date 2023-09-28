@@ -24,6 +24,9 @@ module.exports = {
       backgroundColor: {
         'blackb': '#0B0E11',
       },
+      colors: {
+        'primary': '#F09804',
+      }
     },
   },
   plugins: [],

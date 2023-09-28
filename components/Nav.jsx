@@ -1,32 +1,39 @@
 'use client'
 import Image from "next/image"
 import Link from "next/link"
-
-import { useState } from "react"
+import { usePathname } from "next/navigation"
 
 const Nav = () => {
-    const [active, setactive] = useState('')
+    const pathName = usePathname()
+    console.log(pathName)
+
+
     return (
 
-        <header className="navbg pt-8 font-poppins">
-            <div className="flex container justify-between  py-10 items-center   px-5">
-                <Image src='/logo.png' alt="logo" width={70} height={70} />
+        <header className="navbg z-50  font-poppins">
+            <div className="flex container justify-between  py-8 items-center   px-5">
+                <Image src='/logo.png' alt="logo" width={60} height={60} />
                 <nav className="text-white">
-                    <ul className="flex gap-10 font-medium">
-                        <li>
-                            <Link onClick={() => setactive('home')}
-                                className={` ${active === 'home' ? ' border-b-2 pb-1 transition-all border-[#D7B686]' : 'border-none'}`}
+                    <ul className="flex gap-10 font-medium transition-all duration-300 ">
+                        <li className=" space-y-2">
+                            <Link
+                                className={` ${pathName === '/' ? ' text-white  ' : 'text-[#D1D1D1]'} `}
                                 href='/'>Home</Link>
+                            <div className={`${pathName === '/' ? 'w-10 m-auto     border-primary  border-b-2' : 'border-none '} `} />
+
                         </li>
-                        <li>
-                            <Link onClick={() => setactive('menu')}
-                                className={` ${active === 'menu' ? ' border-b-2 pb-1 transition-all border-[#D7B686]' : 'border-none'}`}
+                        <li className=" space-y-2">
+                            <Link
+                                className={` ${pathName === '/menu' ? ' text-white  ' : 'text-[#D1D1D1]'} `}
                                 href='/menu'>Our Menu</Link>
+                            <div className={`${pathName === '/menu' ? 'w-10 m-auto     border-primary  border-b-2' : 'border-none '} `} />
+
                         </li>
-                        <li>
-                            <Link onClick={() => setactive('contact')}
-                                className={` ${active === 'contact' ? ' border-b-2 pb-1 transition-all border-[#D7B686]' : 'border-none'}`}
+                        <li className=" space-y-2">
+                            <Link
+                                className={` ${pathName === '/contact' ? ' text-white  ' : 'text-[#D1D1D1]'} `}
                                 href='/contact'>Contact</Link>
+                            <div className={`${pathName === '/contact' ? 'w-10 m-auto     border-primary  border-b-2' : 'border-none '} `} />
                         </li>
                     </ul>
                 </nav>
