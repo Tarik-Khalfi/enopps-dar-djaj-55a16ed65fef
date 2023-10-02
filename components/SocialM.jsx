@@ -3,8 +3,8 @@ import React from 'react'
 const SocialM = () => {
     return (
         <section>
-            <div className='grid grid-cols-5 transition-all  container h-[200px] '>
-                <div className='p-20 border-r divv   border-[#aaaaaa6b]  items-center'>
+            <div className='grid lg:grid-cols-5 transition-all  container lg:h-[200px] '>
+                <div className='p-20 lg:border-r divv   border-[#aaaaaa6b]  items-center'>
                     <svg className='m-auto ' xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                         <path className='duration-500' d="M44.165 4.16687H5.83171C4.90983 4.16687 4.16504 4.91166 4.16504 5.83354V44.1669C4.16504 45.0887 4.90983 45.8335 5.83171 45.8335H44.165C45.0869 45.8335 45.8317 45.0887 45.8317 44.1669V5.83354C45.8317 4.91166 45.0869 4.16687 44.165 4.16687ZM39.3525 16.3283H36.0244C33.415 16.3283 32.9098 17.5679 32.9098 19.3908V23.4065H39.139L38.3265 29.6929H32.9098V45.8335H26.415V29.6981H20.9827V23.4065H26.415V18.771C26.415 13.3908 29.7015 10.4585 34.5036 10.4585C36.8057 10.4585 38.7796 10.6304 39.3577 10.7085V16.3283H39.3525Z" fill="#AAAAAA" />
                     </svg>

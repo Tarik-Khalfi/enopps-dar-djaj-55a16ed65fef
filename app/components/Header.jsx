@@ -9,11 +9,11 @@ export default function Header() {
 
   return (
     <div className=" ">
-      <Nav />
 
-      <div className="bg-black h-[929.73px] relative">
-        <div className='bg-[url("/Rectangle2.svg")] bg-cover  bg-no-repeat h-[929.73px] opacity-25 absolute w-full '></div>
-        <div className="bg-gradient-to-b from-black via-transparent to-transparent absolute h-[250px] w-full opacity-25"></div>
+      <div className="bg-black  h-[929.73px] relative">
+        <div className='bg-[url("/Rectangle2.svg")]   bg-cover  bg-no-repeat h-[929.73px] opacity-25 absolute w-full '></div>
+        <div className="bg-gradient-to-b z-50 from-black via-transparent to-transparent absolute h-[250px] w-full opacity-25"></div>
+        <Nav />
         <Image
           src="Group 5.svg"
           width={240}

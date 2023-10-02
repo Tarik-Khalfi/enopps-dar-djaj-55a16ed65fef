@@ -4,7 +4,7 @@ import { Form } from '.'
 
 const Contact = () => {
     return (
-        <section className='container grid grid-cols-12 font-poppins items-center '>
+        <section className='container lg:grid grid-cols-12 font-poppins items-center '>
             <Image alt='ll' src='/Group 5.png' width={400} height={400}
                 className='w-[300px] h-[100px]  z-10 absolute  right-0 ' />
 

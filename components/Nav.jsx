@@ -10,7 +10,7 @@ const Nav = () => {
 
     return (
 
-        <header className="navbg z-50  font-poppins">
+        <header className="navbg z-[100] relative font-poppins">
             <div className="flex container justify-between  py-8 items-center   px-5">
                 <Image src='/logo.png' alt="logo" width={60} height={60} />
                 <nav className="text-white">

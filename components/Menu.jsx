@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Menu = () => {
     return (
         <section className='bg-[#0D1518]  py-20'>
-            <div className='container relative  flex justify-between items-center'>
+            <div className='container relative  lg:flex justify-between items-center'>
                 <div className='bg-white clipo2 py-10 px-14 z-50 space-y-10 '>
                     <h3 className='text-[#F09804E5]  text-4xl font-bernier font-semibold'>Opening Hours</h3>
                     <div className='text-[#808080] font-poppins   space-y-4'>
