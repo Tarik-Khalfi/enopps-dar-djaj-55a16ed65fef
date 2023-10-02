@@ -8,18 +8,19 @@ const Menu3 = () => {
                 <div className=' mb-10 space-y-6'>
                     <div className='  relative  gap-6  left-[280px] items-end flex   '>
                         <Image alt='ll' src='/_DSC4795.jpg ' width={400} height={400}
-                            className='w-[300px]  clipo6' />
-                        <Image alt='ll' src='/_DSC4793.jpg' width={400} height={400}
-                            className='w-[600px]  clipo3' />
+                            className='w-[400px] h-[300px]  clipo6' />
+                        <Image alt='ll' src='/menu_poulet.jpg' width={400} height={400}
+                            className='w-[700px]  clipo3' />
                     </div>
 
                     <div className=' relative z-20 h-auto ml-20  '>
                         <Image alt='ll' src='/Group 5.png' width={400} height={400}
-                            className='w-[300px] h-[100px] z-50 absolute -rotate-[35deg] -top-[49px] left-[33%] ' />
-
-                        <Image alt='ll' src='/_DSC4805.jpg' width={400} height={400}
-                            className='w-[999px] h-[400px]  clipo7 ' />
-
+                            className='w-[300px] h-[100px] z-50 absolute -rotate-[39deg] -top-[49px] left-[40.9%] ' />
+                        <div className=' h-[550px]  clipo7 '>
+                            <Image alt='ll' src='/_DSC4805.jpg' fill
+                                className=' overflow-hidden'
+                                objectFit='contain' objectPosition='center' />
+                        </div>
                         <Image src='/Group 284.png' width={250} height={300}
                             className=' absolute -left-[63px]  -bottom-[79px]  ' alt='img' />
                     </div>

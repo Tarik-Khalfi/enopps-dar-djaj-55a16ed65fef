@@ -59,8 +59,12 @@ const Menu2 = () => {
                 <div className='relative right-[102px] py-10  z-10'>
                     <Image alt='ll' src='/Group 5.png' width={500} height={500}
                         className='w-[250px] h-[140px] z-20 absolute rotate-[45deg] top-[38%] -left-[170px] ' />
-                    <Image alt='ll' src='/_DSC4789.jpg' width={400} height={400}
-                        className='h-[600px] w-[700px]  mt-10 clipo ' />
+
+                    <div className='h-[600px] w-[500px]  mt-10 clipo '>
+                        <Image alt='ll' src='/0a057e698af57a6c452b0d5003044b0c.jpg' fill
+                            className=' overflow-hidden'
+                            objectFit='contain' objectPosition='center' />
+                    </div>
                     <Image src='/Group 284.png' width={250} height={300}
                         className=' absolute -right-20 -bottom-10 rotate-[270deg]   ' alt='img' />
                 </div>
