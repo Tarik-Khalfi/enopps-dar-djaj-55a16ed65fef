@@ -25,7 +25,7 @@ const Form = () => {
                 className=' absolute right-0 bottom-0 rotate-[269deg] ' alt='img' />
             <Image src='/Group 284.png' width={160} height={200}
                 className=' absolute left-0 top-0 rotate-[90deg] ' alt='img' />
-            <h3 className='text-3xl font-bold text-center pb-12'>Contact Form</h3>
+            <h3 className='text-3xl font-bold text-center pb-12'>Formulaire</h3>
             <form
                 className=' flex flex-col space-y-5 w-full '>
                 <input
@@ -33,7 +33,7 @@ const Form = () => {
                     value={inputs.name}
                     onChange={handleChange}
                     className='py-4 w-full px-10 bg-[#FFFFFF1A] foucus:border-[#FFFFFF1A]   border-2 placeholder-white   outline-none'
-                    placeholder='Name'
+                    placeholder='Nom et Prénom'
                     type="text" />
                 <input
                     id='email'
@@ -49,13 +49,13 @@ const Form = () => {
                         type='text'
                         onChange={handleChange}
                         className='py-4 px-10 w-full bg-[#FFFFFF1A]   border-2 placeholder-cyan-50   outline-none'
-                        placeholder='Phone Number' />
+                        placeholder='Numéro de téléphone' />
                     <input
                         id='subject'
                         value={inputs.subject}
                         onChange={handleChange}
                         className='py-4 px-10 w-full bg-[#FFFFFF1A]   border-2  placeholder-cyan-50  outline-none'
-                        placeholder='Subject' type="text" />
+                        placeholder='Sujet' type="text" />
                 </div>
                 <textarea
                     id='message'
@@ -66,7 +66,7 @@ const Form = () => {
                     placeholder='Message...'></textarea>
                 <div className='m-auto'>
                     <button placeholder='submit' type='submit' className='py-5 mt-10 px-20 bg-white font-semibold text-sm text-[#E3C08D]'>
-                        SUBMIT
+                        ENVOYER
                     </button>
                 </div>
             </form>

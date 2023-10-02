@@ -145,6 +145,15 @@ imgGradient {
     clip-path: polygon(23% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 22%);
 }
 
+.shapeMenu22 {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 67%, 75% 100%, 0 100%, 0% 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 75% 100%, 0 100%, 0% 50%);
+}
+
+.afterClip {
+    clip-path: polygon(86% 0, 100% 21%, 100% 100%, 0 100%, 0 0);
+    -webkit-clip-path: polygon(86% 0, 100% 21%, 100% 100%, 0 100%, 0 0);
+}
 
 
 
