@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <div className=" ">
       <div className="bg-black h-[929.73px] relative">
-        <div className='bg-[url("/Rectangle2.svg")] bg-cover  bg-no-repeat h-[929.73px] opacity-25 absolute w-full '></div>
+        <div className='bg-[url("/Rectangle3.jpg")] bg-cover  bg-no-repeat h-[929.73px] opacity-25 absolute w-full '></div>
         <div className="bg-gradient-to-b from-black via-transparent to-transparent absolute h-[250px] w-full opacity-25"></div>
         <div className="flex flex-row justify-between md:container mx-auto z-90 item-center px-10 py-10 ">
           <div>
@@ -32,7 +32,7 @@ export default function Header() {
                 } font-poppins text-[16px] leading-normal  font-medium`}
                 href="/"
               >
-                Home
+                Accueil
               </Link>
               <Link
                 onClick={() => setactive("menu")}
@@ -43,7 +43,7 @@ export default function Header() {
                 } font-poppins text-[16px] leading-normal  font-medium`}
                 href="/menu"
               >
-                Our Menu
+                La Carte
               </Link>
               <Link
                 onClick={() => setactive("contact")}
@@ -54,7 +54,7 @@ export default function Header() {
                 } font-poppins text-[16px] leading-normal  font-medium`}
                 href="/contact"
               >
-                Contact
+                Nous Contacter
               </Link>
             </div>
             <Image
@@ -74,26 +74,26 @@ export default function Header() {
           className="absolute  right-0 top-[25%] "
         />
         <div className="lg:grid lg:grid-cols-2 text-white  md:container px-10 mx-auto  lg:gap-[122px]   mt-50 flex flex-col">
-          <div className=" mt-[88px] w-full ">
+          <div className=" mt-[88px] w-full  z-50">
             <div className="w-[100%]  col-span-1">
               <h1 className=" max-w-md font-[400] text-[44px] Leading-[50.63px] text-[#F09804]  font-bernier">
-                Welcome to Dar d’jaj
+                Bienvenue a Dar d’jaj
               </h1>
               <h1 className=" font-poppins text-[50px] font-[600] lieading-normal text-[#FFF]">
-                The Authentic
+                Votre Restaurant
               </h1>
               <h1 className=" font-poppins text-[50px] font-[600] lieading-normal w-[100%] text-[#FFF]">
-                Restaurant & Cafe
+                Unique Et Authentique
               </h1>
 
               <h1 className=" font-poppins text-[20px] text-[#D4D4D4] font-[400] leading-normal mt-[30px] ">
-                Sed ut perspiciatis unde omnis iste natus error sit
+                Venez decouvrir le goût inmensurable de notre cuisine
                 <br />
-                voluptatem accusantium doloremque laudantium.
+                Car la rôtisserie de qualité, c'est notre métier.
               </h1>
 
-              <button className="border-[#D7B686] border-2   max-w-sm  text-[#FFF]font-popins text-[16px] font-[600] leading-normal py-[18px] px-[60px] mt-[60px]">
-                VIEW MORE
+              <button className="border-[#D7B686] border-2   max-w-sm  text-[#FFF]font-popins text-[16px] font-[600] leading-normal py-[18px] px-[60px] mt-[60px] cursor-pointer z-50">
+                VOIR MENU
               </button>
             </div>
           </div>

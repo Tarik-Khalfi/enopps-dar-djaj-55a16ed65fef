@@ -14,10 +14,10 @@ export default function Main() {
       <div className="md:container w-full mx-auto px-10 mt-[490px] lg:mt-[90px] ">
         <div className="flex flex-col justify-center items-center gap-5 mb-[75px]  mt-[40px] text-center">
           <p className="text-[#F09804] font-normal leading-normal text-[44px] mt-[96px] font-bernier">
-            DISCOVER
+            Decouvrez
           </p>
           <h1 className="text-[#FFF] text-[36px]  font-[600] leading-normal font-poppins">
-            Our Special Cuisine
+            Notre cuisine spéciale
           </h1>
         </div>
 
@@ -35,7 +35,7 @@ export default function Main() {
               </div>
               <div className="md:flex md:flex-col md:col md:w-[70%] md:pr-[100px] mt-2 space-y-4 w-[100%] mx-auto px-1">
                 <p className="text-[#F09804] font-poppins text-[22px] font-600 leading-600 text-center md:text-left">
-                  Middle - East Food
+                  Cuisine - Orientale
                 </p>
                 <p className="text-[14px] font-400 leading-[26px] font-poppins text-[#808080]  ">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -57,7 +57,7 @@ export default function Main() {
               </div>
               <div className="md:flex md:flex-col md:col md:w-[70%] md:pr-[100px] mt-2 space-y-4 w-[100%] mx-auto px-1 ">
                 <p className="text-[#F09804] font-poppins text-[22px] font-600 leading-600 text-center md:text-left">
-                  Korean Food
+                  Cuisine - Coréenne
                 </p>
                 <p className="text-[14px] font-400 leading-[26px] font-poppins text-[#808080]">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -79,7 +79,7 @@ export default function Main() {
               </div>
               <div className="md:flex md:flex-col md:col md:w-[70%] md:pr-[100px] mt-2 space-y-4 w-[100%] mx-auto px-1 ">
                 <p className="text-[#F09804] font-poppins text-[22px] font-600 leading-600 text-center md:text-left">
-                  Western Food
+                  Cuisine - Américaine
                 </p>
                 <p className="text-[14px] font-400 leading-[26px] font-poppins text-[#808080]">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -101,7 +101,7 @@ export default function Main() {
               </div>
               <div className="md:flex md:flex-col md:col md:w-[70%] md:pr-[100px] mt-2 space-y-4 w-[100%] mx-auto px-1 ">
                 <p className="text-[#F09804] font-poppins text-[22px] font-600 leading-600 text-center md:text-left">
-                  Chinese Food
+                  Cuisine - Chinoise
                 </p>
                 <p className="text-[14px] font-400 leading-[26px] font-poppins text-[#808080]">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem

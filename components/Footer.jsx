@@ -62,7 +62,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='col-span-3 flex flex-col space-y-4 lg:space-y-5'>
-                    <h3 className='text-3xl font-semibold'>Find Us</h3>
+                    <h3 className='text-3xl font-semibold'>Nos Informations</h3>
                     <div className='border-t border-[#F09804E5] px-6 border-2 transition-all duration-100  w-fit' />
                     <ul className=" space-y-3 lg:space-y-5 text-[#A1A1A1]">
                         <li className=' flex gap-3 '>
