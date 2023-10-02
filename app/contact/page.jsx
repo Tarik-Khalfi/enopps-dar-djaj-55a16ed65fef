@@ -6,7 +6,7 @@ export default function Home() {
         <main className='blackb  space-y-20'>
             <section className='bg-[url("/Rectangle2.png")] space-y-[100px] bg-cover bg-no-repeat'>
                 <Nav />
-                <HeaderProp font='font-poppins' text='Contact Us' />
+                <HeaderProp font='font-poppins' text='Nous contacter' />
             </section>
             <Contact />
             <Menu />

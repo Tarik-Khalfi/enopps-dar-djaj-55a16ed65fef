@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='container space-y-4 font-poppins lg:grid grid-cols-12 py-10  items-start'>
                 <div className=" col-span-6 space-y-2 lg:space-y-6">
                     <Image src='/logo.png' alt="logo" width={70} height={70} />
-                    <p className='w-[360px] leading-9 font-poppins text-[#A1A1A1]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Sed ut perspiciatis unde omnis iste </p>
+                    <p className='lg:w-[360px] leading-9 font-poppins text-[#A1A1A1]'>Spécialiste de la rôtisserie depuis 1974 Un Goût inimitable Dégustez et vous reviendrez</p>
                     <ul className='flex items-center gap-4'>
                         <li>
                             <a className='divv' href="">
@@ -49,15 +49,15 @@ const Footer = () => {
                     <ul className=" space-y-3">
                         <li>
                             <Link onClick={() => setactive('home')} className={`${active === 'home' ? 'text-white' : 'text-[#A1A1A1]'}`}
-                                href='/'>Home</Link>
+                                href='/'>Accueil</Link>
                         </li>
                         <li>
                             <Link onClick={() => setactive('menu')} className={`${active === 'menu' ? 'text-white' : 'text-[#A1A1A1]'}`}
-                                href='/menu'>Our Menu</Link>
+                                href='/menu'>La Carte</Link>
                         </li>
                         <li>
                             <Link onClick={() => setactive('contact')} className={`${active === 'contact' ? 'text-white' : 'text-[#A1A1A1]'}`}
-                                href='/contact'>Contact</Link>
+                                href='/contact'>Nous Contacter</Link>
                         </li>
                     </ul>
                 </div>
@@ -67,16 +67,17 @@ const Footer = () => {
                     <ul className=" space-y-3 lg:space-y-5 text-[#A1A1A1]">
                         <li className=' flex gap-3 '>
                             <span className='font-bold text-2xl text-white '>L.</span>
-                            <p> Braga Street 28, Bandung, West Java, Indonesia
+                            <p>
+                                356 av moulay ismail cité nahda Agadir, Agadir, Morocco
                             </p>
                         </li>
                         <li className=' flex gap-3 items-center'>
                             <span className='font-bold text-2xl text-white'>P.</span>
-                            <p>+62 863812123</p>
+                            <p>+212 5288-21819</p>
                         </li>
                         <li className=' flex gap-3 items-center'>
                             <span className='font-bold text-2xl text-white'>E.</span>
-                            <p>lezzatos@restaurant.com</p>
+                            <p>dardjaj@restaurant.com</p>
                         </li>
                     </ul>
                 </div>

@@ -9,7 +9,7 @@ const page = () => {
         <main className="text-black">
             <section className='bg-[url("/Rectangle2.png")] space-y-[60px] bg-cover bg-no-repeat'>
                 <Nav />
-                <HeaderProp fontt='font-bold text-7xl' font='font-bernier' text='Our Menu' />
+                <HeaderProp fontt='font-bold text-7xl' font='font-bernier' text='Notre Menu' />
             </section>
             <Menu1 />
             <Menu3 />

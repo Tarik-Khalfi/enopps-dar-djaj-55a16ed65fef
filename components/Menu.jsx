@@ -5,34 +5,34 @@ const Menu = () => {
         <section className='bg-[#0D1518]  py-20'>
             <div className='container relative  lg:flex justify-between items-center'>
                 <div className='bg-white clipo2 py-10 px-14 z-50 space-y-10 '>
-                    <h3 className='text-[#F09804E5]  text-4xl font-bernier font-semibold'>Opening Hours</h3>
+                    <h3 className='text-[#F09804E5]  text-4xl font-bernier font-semibold'>Heures d'ouvertures</h3>
                     <div className='text-[#808080] font-poppins   space-y-4'>
                         <div className='flex justify-between'>
-                            <p className='font-medium    text-xl text-black'>Monday</p>
+                            <p className='font-medium    text-xl text-black'>Lundi</p>
                             <span>:9:00am - 23:00pm</span>
                         </div>
                         <div className='flex w-[20dvw] justify-between'>
-                            <p className='font-medium  text-xl text-black'>Tuesday</p>
+                            <p className='font-medium  text-xl text-black'>Mardi</p>
                             <span>:9:00am - 23:00pm</span>
                         </div>
                         <div className='flex justify-between'>
-                            <p className='font-medium  text-xl text-black'>Wednesday</p>
+                            <p className='font-medium  text-xl text-black'>Mercredi</p>
                             <span>:9:00am - 23:00pm</span>
                         </div>
                         <div className='flex justify-between'>
-                            <p className='font-medium  text-xl text-black'>Thursday</p>
+                            <p className='font-medium  text-xl text-black'>Jeudi</p>
                             <span>:9:00am - 23:00pm</span>
                         </div>
                         <div className='flex justify-between'>
-                            <p className='font-medium  text-xl text-black'>Friday</p>
+                            <p className='font-medium  text-xl text-black'>Vendredi</p>
                             <span>:9:00am - 23:00pm</span>
                         </div>
                         <div className='flex justify-between'>
-                            <p className='font-medium  text-xl text-black'>Saturday</p>
+                            <p className='font-medium  text-xl text-black'>Samedi</p>
                             <span>:9:00am - 23:00pm</span>
                         </div>
                         <div className='flex justify-between'>
-                            <p className='font-medium  text-xl text-black'>Sunday</p>
+                            <p className='font-medium  text-xl text-black'>Dimanche</p>
                             <span className='text-[#FF6363]'>Closed</span>
                         </div>
 

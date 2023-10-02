@@ -27,12 +27,10 @@ const Form = () => {
                 className=' absolute left-0 top-0 rotate-[90deg] ' alt='img' />
             <h3 className='text-3xl font-bold text-center pb-12'>Contact Form</h3>
             <form
-
                 className=' flex flex-col space-y-5 w-full '>
                 <input
                     id='name'
                     value={inputs.name}
-
                     onChange={handleChange}
                     className='py-4 w-full px-10 bg-[#FFFFFF1A] foucus:border-[#FFFFFF1A]   border-2 placeholder-white   outline-none'
                     placeholder='Name'
@@ -40,12 +38,11 @@ const Form = () => {
                 <input
                     id='email'
                     value={inputs.email}
-
                     onChange={handleChange}
                     className='py-4 px-10 bg-[#FFFFFF1A]   border-2 placeholder-cyan-50   outline-none'
                     placeholder='Email'
                     type="email" />
-                <div className='flex justify-between gap-4'>
+                <div className='flex flex-col lg:flex-row justify-between gap-4'>
                     <input
                         id='phoneNumber'
                         value={inputs.phoneNumber}
@@ -56,7 +53,6 @@ const Form = () => {
                     <input
                         id='subject'
                         value={inputs.subject}
-
                         onChange={handleChange}
                         className='py-4 px-10 w-full bg-[#FFFFFF1A]   border-2  placeholder-cyan-50  outline-none'
                         placeholder='Subject' type="text" />

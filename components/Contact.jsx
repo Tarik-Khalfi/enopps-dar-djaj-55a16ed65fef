@@ -10,8 +10,8 @@ const Contact = () => {
 
             <div className='px-5 col-span-6 z-20 space-y-8'>
                 <div className=' '>
-                    <h1 className='text-[#F09804]  text-[44px]  font-bernier uppercase'>Contact Us</h1>
-                    <h2 className='text-4xl font-semibold'>Get in Touch With Us</h2>
+                    <h1 className='text-[#F09804]  text-[44px]  font-bernier uppercase'>Contactez-nous</h1>
+                    <h2 className='text-4xl font-semibold'>Prenez contact avec nous</h2>
                 </div>
 
                 <p className='text-[#D4D4D4] leading-7 lg:w-[452px]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt </p>
@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
                 <div className='flex gap-5 py-4u'>
                     <Image src='/icon2png.png' width={50} height={50} className='w-[50px] h-[50px]' alt='icon' />
-                    <h4 className='text-2xl'>lezzatos@restaurant.com <br /> <span className='text-[#C4C4C4] text-sm'>Email</span></h4>
+                    <h4 className='lg:text-2xl text-[1.2rem]'>lezzatos@restaurant.com <br /> <span className='text-[#C4C4C4] text-sm'>Email</span></h4>
                 </div>
                 <div className='flex gap-5'>
                     <Image src='/icon3.png' width={50} height={50} className='w-[50px] h-[50px]' alt='icon' />
