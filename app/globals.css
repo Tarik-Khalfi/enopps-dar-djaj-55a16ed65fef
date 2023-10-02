@@ -25,6 +25,8 @@ imgGradient {
     src: url('../public/assets/font/BERNIER™\ Regular.ttf') format('truetype');
 }
 
+
+
 .clipo {
     -webkit-clip-path: polygon(24% 0, 100% 1%, 100% 50%, 100% 100%, 0 100%, 0 17%);
     clip-path: polygon(24% 0, 100% 1%, 100% 50%, 100% 100%, 0 100%, 0 17%);
@@ -51,6 +53,13 @@ imgGradient {
     -webkit-clip-path: polygon(0 0, 89% 0, 100% 9%, 100% 100%, 75% 100%, 0 100%, 0% 80%, 0% 20%);
     clip-path: polygon(0 0, 89% 0, 100% 9%, 100% 100%, 75% 100%, 0 100%, 0% 80%, 0% 20%);
 
+}
+
+@media (max-width:750px) {
+    .clipo5 {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+    }
 }
 
 .clipo6 {
