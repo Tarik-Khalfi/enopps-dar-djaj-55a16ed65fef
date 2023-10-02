@@ -31,6 +31,7 @@ export default function SpecialDish() {
                 <h1 className="text-[#0F1622] font-poppins  font-bold text-[20px] font-600 leading-normal lg:space-x-4 lg:p-4 p-2 space-x-2 z-20">
                   Appertizer Package
                 </h1>
+
               </div>
             </div>
             <div className="h-[300px] w-full bg-gradient-to-t from-black to-[#0f162200]  absolute  bottom-0 z-1"></div>
@@ -74,6 +75,7 @@ export default function SpecialDish() {
                 <h1 className="text-[#0F1622] font-bold font-poppins text-[20px] font-600 leading-normal  lg:space-x-4 lg:p-4 p-2 space-x-2   ">
                   Dessert Package
                 </h1>
+
               </div>
             </div>
             <div className="h-[300px] w-full bg-gradient-to-t from-black to-[#0f162200]  absolute  bottom-0 z-1"></div>

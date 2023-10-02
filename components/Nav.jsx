@@ -18,14 +18,14 @@ const Nav = () => {
                         <li className=" space-y-2">
                             <Link
                                 className={` ${pathName === '/' ? ' text-white  ' : 'text-[#D1D1D1]'} `}
-                                href='/'>Home</Link>
+                                href='/'>Accueil</Link>
                             <div className={`${pathName === '/' ? 'w-10 m-auto     border-primary  border-b-2' : 'border-none '} `} />
 
                         </li>
                         <li className=" space-y-2">
                             <Link
                                 className={` ${pathName === '/menu' ? ' text-white  ' : 'text-[#D1D1D1]'} `}
-                                href='/menu'>Our Menu</Link>
+                                href='/menu'>Menu</Link>
                             <div className={`${pathName === '/menu' ? 'w-10 m-auto     border-primary  border-b-2' : 'border-none '} `} />
 
                         </li>
