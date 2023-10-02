@@ -31,8 +31,8 @@ export default function SpecialDish() {
 
             <div
               className={`${dish === true
-                  ? `h-[194px] w-[90%]   bg-white absolute bottom-0 afterClip z-20 hover:cursor-pointer`
-                  : "w-[90%] h-[70px]  bg-white absolute bottom-0 spcSect2 z-20 hover:cursor-pointer"
+                ? `h-[194px] w-[90%]   bg-white absolute bottom-0 afterClip z-20 hover:cursor-pointer`
+                : "w-[90%] h-[70px]  bg-white absolute bottom-0 spcSect2 z-20 hover:cursor-pointer"
                 } `}
               onClick={() => {
                 setDish(dish === true ? false : true);
@@ -43,7 +43,7 @@ export default function SpecialDish() {
                   <div className="flex flex-row justify-center items-center pl-4">
                     <span className="h-[3px] w-[40px] bg-[#f09804] ml-1 text-left"></span>
                     <h1 className="text-[#0F1622]  text-[32px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
-                      TACOS DAR D'JAJ
+                      TACOS DAR D&apos;JAJ
                     </h1>
                   </div>
                   <div className="flex-col space-y-4 mr-auto w-full pl-6">
@@ -66,8 +66,8 @@ export default function SpecialDish() {
             <div className="bg-[url('/_DSC4729.jpg')]  w-[500px] h-[600px] spcSect bg-cover bg-no-repeat absolute opacity-50"></div>
             <div
               className={`${dishSalade === true
-                  ? `h-[194px] w-[90%]   bg-white absolute bottom-0 afterClip z-20 hover:cursor-pointer`
-                  : "w-[90%] h-[70px]  bg-white absolute bottom-0 spcSect2 z-20 hover:cursor-pointer"
+                ? `h-[194px] w-[90%]   bg-white absolute bottom-0 afterClip z-20 hover:cursor-pointer`
+                : "w-[90%] h-[70px]  bg-white absolute bottom-0 spcSect2 z-20 hover:cursor-pointer"
                 } `}
               onClick={() => {
                 setDishSalade(dishSalade === true ? false : true);
@@ -97,8 +97,8 @@ export default function SpecialDish() {
             <div className="bg-[url('/_DSC4696.jpg')]  w-full lg:w-[500px] h-[600px] spcSect bg-cover bg-no-repeat absolute opacity-50"></div>
             <div
               className={`${dishDesert === true
-                  ? `h-[194px] w-[90%]   bg-white absolute bottom-0 afterClip z-20 hover:cursor-pointer`
-                  : "w-[90%] h-[70px]  bg-white absolute bottom-0 spcSect2 z-20 hover:cursor-pointer"
+                ? `h-[194px] w-[90%]   bg-white absolute bottom-0 afterClip z-20 hover:cursor-pointer`
+                : "w-[90%] h-[70px]  bg-white absolute bottom-0 spcSect2 z-20 hover:cursor-pointer"
                 } `}
               onClick={() => {
                 setDishDesert(dishDesert === true ? false : true);
@@ -109,7 +109,7 @@ export default function SpecialDish() {
                   <div className="flex flex-row justify-center items-center pl-4">
                     <span className="h-[3px] w-[40px] bg-[#f09804] ml-1 text-left"></span>
                     <h1 className="text-[#0F1622]  text-[32px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
-                      SALADE DAR D'JAJ
+                      SALADE DAR D&lsquo;JAJ
                     </h1>
                   </div>
                   <div className="flex-col space-y-4 mr-auto w-full pl-6">

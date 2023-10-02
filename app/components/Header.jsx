@@ -29,7 +29,7 @@ export default function Header() {
           <div className=" mt-[88px] w-full  z-50">
             <div className="w-[100%]  col-span-1">
               <h1 className=" max-w-md font-[400] text-[44px] Leading-[50.63px] text-[#F09804]  font-bernier">
-                Bienvenue a Dar d’jaj
+                Bienvenue a Dar d&apos;jaj
               </h1>
               <h1 className=" font-poppins text-[50px] font-[600] lieading-normal text-[#FFF]">
                 Votre Restaurant
@@ -41,7 +41,7 @@ export default function Header() {
               <h1 className=" font-poppins text-[20px] text-[#D4D4D4] font-[400] leading-normal mt-[30px] ">
                 Venez decouvrir le goût inmensurable de notre cuisine
                 <br />
-                Car la rôtisserie de qualité, c'est notre métier.
+                Car la rôtisserie de qualité, c&apos;&apos;est notre métier.
               </h1>
 
               <button className="border-[#D7B686] border-2   max-w-sm  text-[#FFF]font-popins text-[16px] font-[600] leading-normal py-[18px] px-[60px] mt-[60px] cursor-pointer z-50">
