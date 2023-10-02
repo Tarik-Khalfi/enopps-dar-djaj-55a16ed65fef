@@ -4,17 +4,17 @@ import { Form } from '.'
 
 const Contact = () => {
     return (
-        <section className='container lg:grid grid-cols-12 font-poppins items-center '>
+        <section className='container  lg:grid grid-cols-12 font-poppins items-center '>
             <Image alt='ll' src='/Group 5.png' width={400} height={400}
                 className='w-[300px] h-[100px]  z-10 absolute  right-0 ' />
 
-            <div className=' col-span-6 z-20 space-y-8'>
+            <div className='px-5 col-span-6 z-20 space-y-8'>
                 <div className=' '>
                     <h1 className='text-[#F09804]  text-[44px]  font-bernier uppercase'>Contact Us</h1>
                     <h2 className='text-4xl font-semibold'>Get in Touch With Us</h2>
                 </div>
 
-                <p className='text-[#D4D4D4] leading-7 w-[452px]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt </p>
+                <p className='text-[#D4D4D4] leading-7 lg:w-[452px]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt </p>
                 <div className='flex gap-5'>
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="25" cy="25" r="25" fill="#F09804" />
@@ -31,7 +31,7 @@ const Contact = () => {
                     <h4 className='text-2xl'>Braga St 28, Bandung, West Java <br /> <span className='text-[#C4C4C4] text-sm'>Location</span></h4>
                 </div>
             </div>
-            <div className='relative z-20 col-span-6 clipo5 w-full bg-[#F09804E5] px-14 py-2'>
+            <div className='relative z-20 col-span-6 clipo5 w-full bg-[#F09804E5] lg:px-14 py-2'>
                 <Form />
             </div>
         </section>

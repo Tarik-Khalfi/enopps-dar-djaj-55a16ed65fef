@@ -609,9 +609,12 @@ const page = () => {
                                             <p className="font-bernier font-400 text-[22px] leading-[25px]">
                                                 FRUITS SECS
                                             </p>
-                                            <p className="text-[#F09804] h-[-1px] w-[-1px] leading-1 ">
-                                                -------------------------
-                                            </p>
+                                            <Image
+                                                src="/Vector 24.svg"
+                                                width={170}
+                                                height={5}
+                                                alt=""
+                                            />
                                         </div>
                                     </p>
                                     <p className="font-bernier text-[#F09804] text-[24px] font-400 leading-normal">
@@ -624,9 +627,12 @@ const page = () => {
                                             <p className="font-bernier font-400 text-[22px] leading-[25px]">
                                                 SALADE DE FRUITS
                                             </p>
-                                            <p className="text-[#F09804] h-[20px] ">
-                                                ----------------------
-                                            </p>
+                                            <Image
+                                                src="/Vector 24.svg"
+                                                width={170}
+                                                height={5}
+                                                alt=""
+                                            />
                                         </div>
                                     </p>
                                     <p className="font-bernier text-[#F09804] text-[24px] font-400 leading-normal">
@@ -636,25 +642,23 @@ const page = () => {
                             </div>
                         </div>
                         <div className="col-span-3 w-fit overflow-hidden">
-                            <div className="z-10 absolute h-[700px] w-[780px] left-[15%] ">
+                            <div className="z-10 absolute h-[323px] w-[689px] left-[15%] ">
                                 <Image
                                     src="/_DSC4663.jpg"
-                                    width={698}
-                                    height={323}
-                                    objectFit="center"
+                                    fill
+                                    objectFit="cover"
                                     objectPosition="center"
                                     className=" w-[2900px] h-[323px]  shapeMenu2 overflow-hidden"
                                     alt=""
                                 />
                             </div>
-                            <div className="z-10 absolute h-[952px] w-[943px] mt-[-40px] top-[20%] right-[280px] overflow-hidden">
+                            <div className="z-10 absolute h-[452px] w-[543px] mt-[-40px] top-[20%] right-[45%] overflow-hidden">
                                 <Image
                                     src="/_DSC4773.jpg"
-                                    width={343}
-                                    height={952}
-                                    objectFit="center"
-                                    objectPosition="center"
-                                    className=" mt-[50px] w-[550px]  shapeMenu2 overflow-hidden"
+                                    fill
+                                    objectFit="cover"
+                                    objectPosition="right"
+                                    className=" mt-[50px] w-[550px]  shapeMenu22 overflow-hidden"
                                     alt=""
                                 />
                             </div>
@@ -818,11 +822,11 @@ const page = () => {
                             <div className="col-span-4 h-[300px] w-[500px]   overflow-hidden  relative z-10 top-[-9%] right-[40%] ">
                                 <div className=" absolute h-[500px] w-[500px] ">
                                     <Image
-                                        src="/_DSC4816.jpg"
+                                        src="/_DSC4661.jpg"
                                         fill
                                         alt=""
-                                        objectFit="center"
-                                        objectPosition="center"
+                                        objectFit="cover"
+                                        objectPosition="bottom"
                                         className="overflow-hidden lastImg"
                                     />
                                 </div>

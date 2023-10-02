@@ -82,7 +82,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='text-[#A1A1A1] border-t w-2/3 pt-10 border-[#a1a1a144]'>
+            <div className='text-[#A1A1A1] border-t w-2/3 lg:w-full pt-10 border-[#a1a1a144]'>
                 © Copyright Dar d’jaj 2023, All right reserved.
             </div>
         </footer>

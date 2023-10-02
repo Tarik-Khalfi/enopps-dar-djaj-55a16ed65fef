@@ -62,16 +62,19 @@ const Menu1 = () => {
 
                 </div>
                 <div className=' relative right-32  space-y-6'>
-                    <Image alt='ll' src='/_DSC4776.jpg' width={400} height={400}
+                    <Image alt='ll' src='/_DSC4668.jpg' width={400} height={400}
                         className='w-[700px] clipo3 ' />
-                    <Image alt='ll' src='/_DSC4677.jpg' width={400} height={400}
+                    <Image alt='ll' src='/_DSC4694.jpg' width={400} height={400}
                         className='w-[700px] clipo4' />
                 </div>
                 <div className='relative right-[102px] py-10  z-10'>
                     <Image alt='ll' src='/Group 5.png' width={400} height={400}
                         className='w-[300px] h-[100px] z-20 absolute rotate-[35deg] top-[45%] -left-[140px] ' />
-                    <Image alt='ll' src='/_DSC4684.jpg' width={400} height={400}
-                        className='h-[600px] w-[600px] mt-5 clipo ' />
+                    <div className='h-[600px] w-[450px] mt-5 clipo '>
+                        <Image alt='ll' src='/_DSC4688.jpg' fill
+                            className=' overflow-hidden'
+                            objectFit='contain' objectPosition='center' />
+                    </div>
                     <Image src='/Group 284.png' width={250} height={300}
                         className=' absolute -right-20 -bottom-10 rotate-[270deg]   ' alt='img' />
                 </div>

@@ -1,5 +1,4 @@
 "use client";
-import { Nav } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -9,21 +8,73 @@ export default function Header() {
 
   return (
     <div className=" ">
-
-      <div className="bg-black  h-[929.73px] relative">
-        <div className='bg-[url("/Rectangle2.svg")]   bg-cover  bg-no-repeat h-[929.73px] opacity-25 absolute w-full '></div>
-        <div className="bg-gradient-to-b z-50 from-black via-transparent to-transparent absolute h-[250px] w-full opacity-25"></div>
-        <Nav />
+      <div className="bg-black h-[929.73px] relative">
+        <div className='bg-[url("/Rectangle2.svg")] bg-cover  bg-no-repeat h-[929.73px] opacity-25 absolute w-full '></div>
+        <div className="bg-gradient-to-b from-black via-transparent to-transparent absolute h-[250px] w-full opacity-25"></div>
+        <div className="flex flex-row justify-between md:container mx-auto z-90 item-center px-10 py-10 ">
+          <div>
+            <Image
+              src="/assets/logo/logo.svg"
+              width={69}
+              height={69}
+              className="w-[69px] h-[69px]"
+              alt="s"
+            />
+          </div>
+          <div className="  flex flex-row justify-between align-baseline space-x-10 z-10">
+            <div className="hidden lg:block md:block xl:block space-x-10 z-10">
+              <Link
+                onClick={() => setactive("home")}
+                className={` ${
+                  active === "home"
+                    ? " border-b-2 pb-1 transition-all border-[#D7B686]"
+                    : "border-none"
+                } font-poppins text-[16px] leading-normal  font-medium`}
+                href="/"
+              >
+                Home
+              </Link>
+              <Link
+                onClick={() => setactive("menu")}
+                className={` ${
+                  active === "menu"
+                    ? " border-b-2 pb-1 transition-all border-[#D7B686]"
+                    : "border-none"
+                } font-poppins text-[16px] leading-normal  font-medium`}
+                href="/menu"
+              >
+                Our Menu
+              </Link>
+              <Link
+                onClick={() => setactive("contact")}
+                className={` ${
+                  active === "contact"
+                    ? " border-b-2 pb-1 transition-all border-[#D7B686]"
+                    : "border-none"
+                } font-poppins text-[16px] leading-normal  font-medium`}
+                href="/contact"
+              >
+                Contact
+              </Link>
+            </div>
+            <Image
+              src="/burger-menu-svgrepo-com.svg"
+              width={40}
+              height={40}
+              alt=""
+              className="bg-white lg:hidden xl:hidden md:hidden"
+            />
+          </div>
+        </div>
         <Image
           src="Group 5.svg"
           width={240}
           height={20}
           alt=""
-          className="absolute  right-0 top-[25%]"
+          className="absolute  right-0 top-[25%] "
         />
-        <div className="grid grid-cols-2 text-white  container px-10 mx-auto  gap-[122px]   mt-50">
+        <div className="lg:grid lg:grid-cols-2 text-white  md:container px-10 mx-auto  lg:gap-[122px]   mt-50 flex flex-col">
           <div className=" mt-[88px] w-full ">
-            {/*  */}
             <div className="w-[100%]  col-span-1">
               <h1 className=" max-w-md font-[400] text-[44px] Leading-[50.63px] text-[#F09804]  font-bernier">
                 Welcome to Dar d’jaj

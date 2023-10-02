@@ -34,7 +34,7 @@ const Form = () => {
                     value={inputs.name}
 
                     onChange={handleChange}
-                    className='py-4 px-10 bg-[#FFFFFF1A] foucus:border-[#FFFFFF1A]   border-2 placeholder-white   outline-none'
+                    className='py-4 w-full px-10 bg-[#FFFFFF1A] foucus:border-[#FFFFFF1A]   border-2 placeholder-white   outline-none'
                     placeholder='Name'
                     type="text" />
                 <input

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
     return (
-        <main className='blackb space-y-20'>
+        <main className='blackb  space-y-20'>
             <section className='bg-[url("/Rectangle2.png")] space-y-[100px] bg-cover bg-no-repeat'>
                 <Nav />
                 <HeaderProp font='font-poppins' text='Contact Us' />
