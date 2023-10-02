@@ -1,4 +1,5 @@
 "use client";
+import { Nav } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -11,60 +12,11 @@ export default function Header() {
       <div className="bg-black h-[929.73px] relative">
         <div className='bg-[url("/Rectangle3.jpg")] bg-cover  bg-no-repeat h-[929.73px] opacity-25 absolute w-full '></div>
         <div className="bg-gradient-to-b from-black via-transparent to-transparent absolute h-[250px] w-full opacity-25"></div>
+        <Nav />
         <div className="flex flex-row justify-between md:container mx-auto z-90 item-center px-10 py-10 ">
-          <div>
-            <Image
-              src="/assets/logo/logo.svg"
-              width={69}
-              height={69}
-              className="w-[69px] h-[69px]"
-              alt="s"
-            />
-          </div>
-          <div className="  flex flex-row justify-between align-baseline space-x-10 z-10">
-            <div className="hidden lg:block md:block xl:block space-x-10 z-10">
-              <Link
-                onClick={() => setactive("home")}
-                className={` ${
-                  active === "home"
-                    ? " border-b-2 pb-1 transition-all border-[#D7B686]"
-                    : "border-none"
-                } font-poppins text-[16px] leading-normal  font-medium`}
-                href="/"
-              >
-                Accueil
-              </Link>
-              <Link
-                onClick={() => setactive("menu")}
-                className={` ${
-                  active === "menu"
-                    ? " border-b-2 pb-1 transition-all border-[#D7B686]"
-                    : "border-none"
-                } font-poppins text-[16px] leading-normal  font-medium`}
-                href="/menu"
-              >
-                La Carte
-              </Link>
-              <Link
-                onClick={() => setactive("contact")}
-                className={` ${
-                  active === "contact"
-                    ? " border-b-2 pb-1 transition-all border-[#D7B686]"
-                    : "border-none"
-                } font-poppins text-[16px] leading-normal  font-medium`}
-                href="/contact"
-              >
-                Nous Contacter
-              </Link>
-            </div>
-            <Image
-              src="/burger-menu-svgrepo-com.svg"
-              width={40}
-              height={40}
-              alt=""
-              className="bg-white lg:hidden xl:hidden md:hidden"
-            />
-          </div>
+
+
+
         </div>
         <Image
           src="Group 5.svg"

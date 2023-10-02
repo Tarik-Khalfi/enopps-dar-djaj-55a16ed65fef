@@ -109,13 +109,10 @@ imgGradient {
     clip-path: polygon(15% 0, 73% 0, 100% 27%, 100% 85%, 100% 100%, 9% 100%, 0 100%, 0 0);
 }
 
-@media (min-width: 760px) {
-    .foodClipe {
-        -webkit-clip-path: polygon(0 0, 90% 0, 100% 16%, 100% 100%, 0 100%, 0% 50%);
-        clip-path: polygon(0 0, 90% 0, 100% 16%, 100% 100%, 0 100%, 0% 50%);
-    }
+.foodClip2 {
+    -webkit-clip-path: polygon(0 0, 90% 0, 100% 16%, 100% 100%, 0 100%, 0% 50%);
+    clip-path: polygon(0 0, 90% 0, 100% 16%, 100% 100%, 0 100%, 0% 50%);
 }
-
 
 
 .shapeMenu {
@@ -148,7 +145,45 @@ imgGradient {
     clip-path: polygon(23% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 22%);
 }
 
-.shapeMenu22 {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 67%, 75% 100%, 0 100%, 0% 50%);
-    clip-path: polygon(0 0, 100% 0, 100% 67%, 75% 100%, 0 100%, 0% 50%);
+
+
+
+
+
+
+.divv:hover path {
+    fill: #F09804;
+}
+
+.nav:hover div {
+    border: #F09804 1px solid;
+    transition: all;
+    transition-duration: 1s;
+    margin-top: 6px;
+    transition: ease-in-out;
+}
+
+.nav:active div {
+    border: #F09804 1px solid;
+    transition: all;
+    transition-duration: 1s;
+    margin-top: 6px;
+    transition: ease-in-out;
+}
+
+.nav:out-of-range div {
+    border: #F09804 1px solid;
+    transition: all;
+    transition-duration: 1s;
+    margin-top: 6px;
+    transition: ease-in-out;
+}
+
+
+
+@media (min-width: 760px) {
+    .foodClipe {
+        -webkit-clip-path: polygon(0 0, 90% 0, 100% 16%, 100% 100%, 0 100%, 0% 50%);
+        clip-path: polygon(0 0, 90% 0, 100% 16%, 100% 100%, 0 100%, 0% 50%);
+    }
 }
