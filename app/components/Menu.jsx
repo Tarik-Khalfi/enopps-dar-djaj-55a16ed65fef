@@ -17,7 +17,7 @@ export default function Menu() {
               <p className="text-[#F09804] text-sm  ">
                 ------------------------------
               </p>
-              <p className="text-[#F09804] text-[23px] font-400 leading-normal">
+              <p className="text-[#F09804] text-[23px] font-400 leading-normal font-bernier">
                 40DHS
               </p>
             </div>
@@ -28,7 +28,7 @@ export default function Menu() {
               <p className="text-[#F09804] text-sm  ">
                 ------------------------------
               </p>
-              <p className="text-[#F09804] text-[23px] font-400 leading-normal">
+              <p className="text-[#F09804] text-[23px] font-400 leading-normal font-bernier">
                 80DHS
               </p>
             </div>
@@ -39,7 +39,7 @@ export default function Menu() {
               <p className="text-[#F09804] text-sm  ">
                 ------------------------
               </p>
-              <p className="text-[#F09804] text-[23px] font-400 leading-normal ">
+              <p className="text-[#F09804] text-[23px] font-400 leading-normal font-bernier ">
                 145DHS
               </p>
             </div>
