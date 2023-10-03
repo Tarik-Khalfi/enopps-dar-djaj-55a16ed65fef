@@ -16,7 +16,7 @@ const Menu1 = () => {
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>35 DH</h3>
                             </div>
 
-                            <p className='text-[#808080] font-semibold   font-poppins '>Poulet rôti, riz, mais</p>
+                            <p className='text-[#808080]    font-poppins '>Poulet rôti, riz, mais</p>
                         </div>
                     </div>
 
@@ -29,7 +29,7 @@ const Menu1 = () => {
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>35 DH</h3>
                             </div>
 
-                            <p className='text-[#808080]  font-semibold  leading-7  font-poppins '>Pomme de terre, bettrave, carotte, riz, thon, oeuf , concombre, olive</p>
+                            <p className='text-[#808080]   leading-7  font-poppins '>Pomme de terre, bettrave, carotte, riz, thon, oeuf , concombre, olive</p>
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@ const Menu1 = () => {
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>22 DH</h3>
                             </div>
 
-                            <p className='text-[#808080] font-semibold  font-poppins '>Tomate, Oignon, thon</p>
+                            <p className='text-[#808080]   font-poppins '>Tomate, Oignon, thon</p>
                         </div>
                     </div>
 
