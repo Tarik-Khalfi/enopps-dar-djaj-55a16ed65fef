@@ -9,7 +9,7 @@ import SecondSection from "./components/SecondSection";
 import ThirdSection from "./components/ThirdSection";
 export default function Home() {
   return (
-    <main className="w-full ">
+    <main>
       <Header />
       <Main />
       <SpecialDish />

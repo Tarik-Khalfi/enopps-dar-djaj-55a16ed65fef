@@ -7,7 +7,7 @@ export default function SpecialDish() {
   const [dishSalade, setDishSalade] = useState(true);
   const [dishDesert, setDishDesert] = useState(false);
   return (
-    <div className="h-[882px] bg-[#0B0E11] lg:mt-[110px] mt-[870px] md:mt-[550px]  mb-[110px] relative  ">
+    <div className="lg:h-[882px] bg-[#0B0E11] lg:mt-[110px] mt-[870px] md:mt-[550px]  mb-[110px] relative  ">
       <Image src="/Group 5.svg" width={213} height={117} alt="" />
       <Image
         src="/Group 5 vertical.svg"
@@ -43,7 +43,7 @@ export default function SpecialDish() {
                 <div className="flex flex-col">
                   <div className="flex flex-row justify-center items-center pl-4">
                     <span className="h-[3px] w-[40px] bg-[#f09804] ml-1 text-left"></span>
-                    <h1 className="text-[#0F1622]  md:text-[32px] text-[26px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
+                    <h1 className="text-[#0F1622]  md:text-[32px] text-[24px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
                       TACOS DAR D&apos;JAJ
                     </h1>
                   </div>
@@ -111,7 +111,7 @@ export default function SpecialDish() {
                 <div className="flex flex-col">
                   <div className="flex flex-row justify-center items-center pl-4">
                     <span className="h-[3px] w-[40px] bg-[#f09804] ml-1 text-left"></span>
-                    <h1 className="text-[#0F1622]  md:text-[32px] text-[24px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
+                    <h1 className="text-[#0F1622]  md:text-[32px] text-[22px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
                       SALADE DAR D&lsquo;JAJ
                     </h1>
                   </div>
