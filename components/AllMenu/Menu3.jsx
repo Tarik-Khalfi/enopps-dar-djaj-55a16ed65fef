@@ -31,11 +31,11 @@ const Menu3 = () => {
                         <div className='w-[400px] '>
                             <div className='flex justify-between items-center'>
                                 <p className='font-medium text-2xl font-bernier  text-[#0F1622]'>POULET ENTIER</p>
-                                <p className=' text-primary'>--------------------------------</p>
+                                <p className=' text-primary'>------------------------------</p>
 
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>140 DH</h3>
                             </div>
-                            <p className='text-[#808080] font-semibold leading-7 font-poppins '>Poulet rôti (accompagné de riz , frites sauce tomate cdrise et sauce poulet)</p>
+                            <p className='text-[#808080]  leading-7 font-poppins '>Poulet rôti (accompagné de riz , frites sauce tomate cdrise et sauce poulet)</p>
 
                         </div>
                     </div>
@@ -44,11 +44,11 @@ const Menu3 = () => {
                         <div className='w-[400px] '>
                             <div className='flex justify-between items-center'>
                                 <p className='font-medium text-2xl font-bernier  text-[#0F1622]'>POULET 1/2</p>
-                                <p className=' text-primary'>--------------------------------------</p>
+                                <p className=' text-primary'>------------------------------------</p>
 
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>70 DH</h3>
                             </div>
-                            <p className='text-[#808080] font-semibold leading-7 font-poppins '>Poulet rôti (accompagné de riz, frites sauce tomate cdrise et sauce poulet)</p>
+                            <p className='text-[#808080]  leading-7 font-poppins '>Poulet rôti (accompagné de riz, frites sauce tomate cdrise et sauce poulet)</p>
 
                         </div>
                     </div>
@@ -57,11 +57,11 @@ const Menu3 = () => {
                         <div className='w-[400px] '>
                             <div className='flex justify-between items-center'>
                                 <p className='font-medium text-2xl font-bernier  text-[#0F1622]'>POULET 1/4</p>
-                                <p className=' text-primary'>---------------------------------------</p>
+                                <p className=' text-primary'>-------------------------------------</p>
 
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>35 dh</h3>
                             </div>
-                            <p className='text-[#808080] font-semibold leading-7 font-poppins '>Accompagné paella, salade marocaine sauce tomate et sauce poulet, frites</p>
+                            <p className='text-[#808080]  leading-7 font-poppins '>Accompagné paella, salade marocaine sauce tomate et sauce poulet, frites</p>
 
                         </div>
                     </div>
@@ -74,7 +74,7 @@ const Menu3 = () => {
 
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>49 dh</h3>
                             </div>
-                            <p className='text-[#808080] font-semibold leading-7 font-poppins '>Poulet rôti (accompagné de riz, frites sauce tomate cdrise et sauce poulet)</p>
+                            <p className='text-[#808080]  leading-7 font-poppins '>Poulet rôti (accompagné de riz, frites sauce tomate cdrise et sauce poulet)</p>
 
                         </div>
                     </div>
@@ -87,7 +87,7 @@ const Menu3 = () => {
 
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>55 dh</h3>
                             </div>
-                            <p className='text-[#808080] font-semibold leading-7 font-poppins '>Poulet rôti (accompagné de riz, frites sauce tomate cdrise et sauce poulet)</p>
+                            <p className='text-[#808080]  leading-7 font-poppins '>Poulet rôti (accompagné de riz, frites sauce tomate cdrise et sauce poulet)</p>
 
                         </div>
                     </div>
@@ -99,7 +99,7 @@ const Menu3 = () => {
 
                                 <h3 className='text-[#F09804E5] font-bold font-bernier text-2xl '>55 dh</h3>
                             </div>
-                            <p className='text-[#808080] font-semibold leading-7 font-poppins '>accompagné salade marocaine sauce tomate et frites</p>
+                            <p className='text-[#808080]  leading-7 font-poppins '>accompagné salade marocaine sauce tomate et frites</p>
 
                         </div>
                     </div>
