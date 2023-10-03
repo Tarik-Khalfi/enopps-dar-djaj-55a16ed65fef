@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Menu() {
   return (
-    <div className=" h-[780px] bg-[#0B0E11] lg:mt-[120px] mt-[1700px]   mb-[110px] relative ">
+    <div className=" h-[780px] bg-[#0B0E11] lg:mt-[120px] mt-[1800px]   mb-[110px] relative ">
       <div className="lg:container lg:mx-auto lg:px-10 lg:grid lg:grid-cols-2  relative flex flex-col-reverse">
         <div className="bg-[#FFFF] lg:h-[397px] h-[400px] lg:w-[482px]  flex flex-col py-5 lg:mt-[184px]  mt-[600px] z-50   items-center justify-center">
           <div className="  lg:w-[442px] w-[100%] my-auto lg:space-y-2 space-y-2  absolute space-x-2 overflow-hidden">
@@ -50,7 +50,7 @@ export default function Menu() {
         </div>
         <div className="mt-[80px] relative xl:w-[815px] lg:w-full   ">
           <div className="overflow-hidden">
-            <div className="absolute z-20 xl:w-[1115px]  lg:w-[900px] w-[100%] h-[600px] lg:right-[20px] xl:right-20 right-[-10]">
+            <div className="absolute z-20 xl:w-[1100px]  lg:w-[900px] w-[100%] h-[600px] lg:right-[20px] xl:right-[10%] right-[-10]">
               <Image
                 src="/Group 41.svg"
                 alt=""
@@ -63,7 +63,7 @@ export default function Menu() {
                 fill={true}
                 objectFit="cover"
                 objectPosition="center"
-                className="  absolute z-10 overflow-hidden foodClipe"
+                className="  absolute z-10 overflow-hidden foodClipe "
                 alt=""
               />
               <Image

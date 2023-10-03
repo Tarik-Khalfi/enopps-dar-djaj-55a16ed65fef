@@ -23,14 +23,14 @@ export default function Header() {
         />
         <div className="lg:grid lg:grid-cols-2 text-white  md:container px-10 mx-auto  lg:gap-[122px]   mt-50 flex flex-col">
           <div className=" mt-[88px] w-full  z-50">
-            <div className="w-[100%]  col-span-1">
+            <div className="w-[90%]  lg:w-[100%] col-span-1">
               <h1 className=" max-w-md font-[400] text-[44px] Leading-[50.63px] text-[#F09804]  font-bernier">
                 Bienvenue a Dar d&apos;jaj
               </h1>
               <h1 className=" font-poppins text-[50px] font-[600] lieading-normal text-[#FFF]">
                 Votre Restaurant
               </h1>
-              <h1 className=" font-poppins text-[50px] font-[600] lieading-normal w-[100%] text-[#FFF]">
+              <h1 className=" font-poppins text-[50px] font-[600] lieading-normal w- text-[#FFF] lg:w-auto">
                 Unique Et Authentique
               </h1>
 

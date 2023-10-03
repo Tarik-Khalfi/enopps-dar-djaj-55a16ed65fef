@@ -7,7 +7,7 @@ export default function SpecialDish() {
   const [dishSalade, setDishSalade] = useState(true);
   const [dishDesert, setDishDesert] = useState(false);
   return (
-    <div className="h-[882px] bg-[#0B0E11] lg:mt-[110px] mt-[620px]  mb-[110px] relative ">
+    <div className="h-[882px] bg-[#0B0E11] lg:mt-[110px] mt-[870px] md:mt-[550px]  mb-[110px] relative  ">
       <Image src="/Group 5.svg" width={213} height={117} alt="" />
       <Image
         src="/Group 5 vertical.svg"
@@ -21,7 +21,7 @@ export default function SpecialDish() {
           <h1 className=" text-[44px] font-[400] leading-normal text-center font-bernier text-[#F09804] mt-[150px] lg:mt-[0px] ">
             Nos plats speciaux
           </h1>
-          <h1 className="text-[#FFF] text-[36px] font-poppins  font-600  font-bold leading-normal text-center">
+          <h1 className="text-[#FFF] lg:text-[36px] w-[100%] mx-auto px-2 text-[30px] font-poppins  font-600  font-bold leading-normal text-center">
             Meilleures Recommandations au menu
           </h1>
         </div>
@@ -43,7 +43,7 @@ export default function SpecialDish() {
                 <div className="flex flex-col">
                   <div className="flex flex-row justify-center items-center pl-4">
                     <span className="h-[3px] w-[40px] bg-[#f09804] ml-1 text-left"></span>
-                    <h1 className="text-[#0F1622]  text-[32px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
+                    <h1 className="text-[#0F1622]  md:text-[32px] text-[26px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
                       TACOS DAR D&apos;JAJ
                     </h1>
                   </div>
@@ -64,11 +64,11 @@ export default function SpecialDish() {
             <div className="h-[300px] w-full bg-gradient-to-t from-black to-[#0f162200]  absolute  bottom-0 z-1"></div>
           </div>
           <div className="bg-black  w-full h-[600px] relative spcSect">
-            <div className="bg-[url('/_DSC4729.jpg')]  w-[500px] h-[600px] spcSect bg-cover bg-no-repeat absolute opacity-50"></div>
+            <div className="bg-[url('/_DSC4729.jpg')]  w-full h-[600px] spcSect bg-cover bg-no-repeat absolute opacity-50"></div>
             <div
               className={`${
                 dishSalade === true
-                  ? `h-[194px] w-[90%]   bg-white absolute bottom-0 afterClip z-20 hover:cursor-pointer`
+                  ? `md:h-[194px] h-[240px] w-[90%]   bg-white absolute bottom-0 afterClip z-20 hover:cursor-pointer`
                   : "w-[90%] h-[70px]  bg-white absolute bottom-0 spcSect2 z-20 hover:cursor-pointer"
               } `}
               onClick={() => {
@@ -78,7 +78,7 @@ export default function SpecialDish() {
               <div className="flex flex-col   absolute space-x-1">
                 <div className="flex flex-row  items-center space-x-1 pl-4">
                   <span className="h-[3px] w-[40px] bg-[#f09804] ml-1 text-left"></span>
-                  <h1 className="text-[#0F1622]  text-[32px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
+                  <h1 className="text-[#0F1622]  md:text-[32px] text-[26px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
                     POULET ENTIER
                   </h1>
                 </div>
@@ -111,7 +111,7 @@ export default function SpecialDish() {
                 <div className="flex flex-col">
                   <div className="flex flex-row justify-center items-center pl-4">
                     <span className="h-[3px] w-[40px] bg-[#f09804] ml-1 text-left"></span>
-                    <h1 className="text-[#0F1622]  text-[32px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
+                    <h1 className="text-[#0F1622]  md:text-[32px] text-[24px] font-bernier font-bold font-600 leading-normal space-x-4 p-4 text-left">
                       SALADE DAR D&lsquo;JAJ
                     </h1>
                   </div>
